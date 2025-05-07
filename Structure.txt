@@ -1,0 +1,16 @@
+predictive-maintenance-ai/
+│
+├── data/                       # Raw and processed data
+├── notebooks/                 # EDA, modeling, experiments
+├── src/
+│   ├── timeseries_model.py
+│   ├── nlp_log_parser.py
+│   ├── vision_classifier.py
+│   └── api_server.py           # FastAPI for inference
+├── app/
+│   └── dashboard.py           # Streamlit dashboard
+├── Dockerfile
+├── requirements.txt
+├── azure_deployment/         # YAML or Azure ML job configs
+├── README.md
+└── screenshots/
